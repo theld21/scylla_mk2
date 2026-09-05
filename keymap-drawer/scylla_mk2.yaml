@@ -59,65 +59,6 @@ layers:
   - {t: SPACE, h: Number}
   - ENTER
   - ESC
-  Scylla_:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - BSPC
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LCTRL
-  - LALT
-  - LGUI
-  - SPACE
-  - TAB
-  - BSPC
-  - DEL
-  - {t: SPACE, h: Number}
-  - ENTER
-  - ESC
   Number:
   - {t: Scylla, h: toggle}
   - F1
@@ -131,25 +72,25 @@ layers:
   - F9
   - F10
   - F11
-  - {t: Scylla_, h: toggle}
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '-'
-  - F12
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - BT CLR
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
   - '4'
   - '5'
   - '6'
@@ -162,131 +103,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - '7'
+  - '8'
+  - '9'
   - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '0'
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [51, 50]
-  k: ENTER
-- p: [52, 51]
-  k: SPACE
-- p: [50, 51, 52]
-  k: DELETE
-- p: [19, 31]
-  k: '['
-  l: [Scylla, Scylla_]
-- p: [20, 32]
-  k: ']'
-  l: [Scylla, Scylla_]
-- p: [20, 31]
-  k: '{'
-  l: [Scylla, Scylla_]
-- p: [32, 21]
-  k: '}'
-  l: [Scylla, Scylla_]
-- p: [32, 43]
-  k: (
-  l: [Scylla, Scylla_]
-- p: [33, 44]
-  k: )
-  l: [Scylla, Scylla_]
-- p: [13, 25]
-  k: '`'
-  l: [Scylla, Scylla_]
-- p: [18, 19]
-  k: '~'
-  l: [Scylla, Scylla_]
-- p: [20, 19]
-  k: +
-  l: [Scylla, Scylla_]
-- p: [31, 32]
+- p: [6, 7]
   k: '-'
-  l: [Scylla, Scylla_]
-- p: [44, 43]
-  k: _
-  l: [Scylla, Scylla_]
-- p: [32, 33]
-  k: '='
-  l: [Scylla, Scylla_]
-- p: [29, 17]
-  k: '!'
-- p: [16, 28]
-  k: '|'
-- p: [15, 28]
-  k: $
-- p: [16, 27]
-  k: '%'
-- p: [16, 15]
-  k: '*'
-- p: [28, 27]
-  k: '&'
-- p: [17, 28]
-  k: '#'
-- p: [16, 29]
-  k: \
-- p: [16, 17]
-  k: ^
-- p: [29, 28]
-  k: '@'
-- p: [53, 22]
-  k: Ctl+BSPC
-  l: [Scylla]
-- p: [53, 31]
-  k: Ctl+LEFT
-  l: [Scylla]
-- p: [53, 32]
-  k: Ctl+DOWN
-  l: [Scylla]
-- p: [53, 33]
-  k: Ctl+RIGHT
-  l: [Scylla]
-- p: [53, 20]
-  k: Ctl+UP
-  l: [Scylla]
-- p: [53, 22]
-  k: Alt+BSPC
-  l: [Scylla_]
-- p: [53, 31]
-  k: Alt+LEFT
-  l: [Scylla_]
-- p: [53, 32]
-  k: Alt+DOWN
-  l: [Scylla_]
-- p: [53, 20]
-  k: Alt+UP
-  l: [Scylla_]
-- p: [54, 31]
-  k: LEFT
-- p: [54, 33]
-  k: RIGHT
-- p: [54, 20]
-  k: UP
-- p: [54, 32]
-  k: DOWN
-- p: [25, 26]
-  k: TAB
-- p: [13, 14]
-  k: ESCAPE
-- p: [21, 22]
-  k: BACKSPACE
-- p: [33, 34]
-  k: ENTER
-- p: [53, 33]
-  k: Alt+RIGHT
-  l: [Scylla_]
-- p: [18, 30]
-  k: ''''
-- p: [19, 30]
-  k: '"'
