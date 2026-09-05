@@ -1,4 +1,4 @@
-#include "ldt21.dtsi"
+#include "scylla_mk2.dtsi"
 
 &kscan0 {
     col-gpios

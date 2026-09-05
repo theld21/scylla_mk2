@@ -1,6 +1,6 @@
-layout: {zmk_keyboard: ldt21}
+layout: {zmk_keyboard: scylla_mk2}
 layers:
-  LDT:
+  Scylla:
   - ESC
   - '1'
   - '2'
@@ -59,7 +59,7 @@ layers:
   - {t: SPACE, h: Number}
   - ENTER
   - ESC
-  LDT_:
+  Scylla_:
   - ESC
   - '1'
   - '2'
@@ -119,7 +119,7 @@ layers:
   - ENTER
   - ESC
   Number:
-  - {t: LDT, h: toggle}
+  - {t: Scylla, h: toggle}
   - F1
   - F2
   - F3
@@ -131,7 +131,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: LDT_, h: toggle}
+  - {t: Scylla_, h: toggle}
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,40 +186,40 @@ combos:
   k: DELETE
 - p: [19, 31]
   k: '['
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [20, 32]
   k: ']'
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [20, 31]
   k: '{'
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [32, 21]
   k: '}'
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [32, 43]
   k: (
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [33, 44]
   k: )
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [13, 25]
   k: '`'
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [18, 19]
   k: '~'
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [20, 19]
   k: +
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [31, 32]
   k: '-'
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [44, 43]
   k: _
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [32, 33]
   k: '='
-  l: [LDT, LDT_]
+  l: [Scylla, Scylla_]
 - p: [29, 17]
   k: '!'
 - p: [16, 28]
@@ -242,31 +242,31 @@ combos:
   k: '@'
 - p: [55, 22]
   k: Ctl+BSPC
-  l: [LDT]
+  l: [Scylla]
 - p: [55, 31]
   k: Ctl+LEFT
-  l: [LDT]
+  l: [Scylla]
 - p: [55, 32]
   k: Ctl+DOWN
-  l: [LDT]
+  l: [Scylla]
 - p: [55, 33]
   k: Ctl+RIGHT
-  l: [LDT]
+  l: [Scylla]
 - p: [55, 20]
   k: Ctl+UP
-  l: [LDT]
+  l: [Scylla]
 - p: [55, 22]
   k: Alt+BSPC
-  l: [LDT_]
+  l: [Scylla_]
 - p: [55, 31]
   k: Alt+LEFT
-  l: [LDT_]
+  l: [Scylla_]
 - p: [55, 32]
   k: Alt+DOWN
-  l: [LDT_]
+  l: [Scylla_]
 - p: [55, 20]
   k: Alt+UP
-  l: [LDT_]
+  l: [Scylla_]
 - p: [56, 31]
   k: LEFT
 - p: [56, 33]
@@ -285,7 +285,7 @@ combos:
   k: ENTER
 - p: [55, 33]
   k: Alt+RIGHT
-  l: [LDT_]
+  l: [Scylla_]
 - p: [18, 30]
   k: ''''
 - p: [19, 30]

@@ -1,0 +1,11 @@
+file_format: "1"
+id: scylla_mk2
+name: Scylla MK2
+type: shield
+url: https://github.com/theld21/scylla_mk2
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - scylla_mk2_left
+  - scylla_mk2_right

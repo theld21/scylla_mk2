@@ -1,4 +1,4 @@
-#include "ldt21.dtsi"
+#include "scylla_mk2.dtsi"
 
 &default_transform {
     col-offset = <6>;

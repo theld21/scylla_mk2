@@ -1,14 +1,14 @@
-if SHIELD_LDT21_LEFT
+if SHIELD_SCYLLA_MK2_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ldt21"
+    default "scylla_mk2"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_LDT21_LEFT || SHIELD_LDT21_RIGHT
+if SHIELD_SCYLLA_MK2_LEFT || SHIELD_SCYLLA_MK2_RIGHT
 
     config ZMK_SPLIT
         default y

@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-LDT">
-<text x="0" y="28" class="label" id="LDT">LDT:</text>
+<g transform="translate(30, 0)" class="layer-Scylla">
+<text x="0" y="28" class="label" id="Scylla">Scylla:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 62)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -551,8 +551,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 434)" class="layer-LDT_">
-<text x="0" y="28" class="label" id="LDT_">LDT_:</text>
+<g transform="translate(30, 434)" class="layer-Scylla_">
+<text x="0" y="28" class="label" id="Scylla_">Scylla_:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 62)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -983,8 +983,8 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(28, 62)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#LDT">
-<text x="0" y="0" class="key tap layer-activator">LDT</text>
+<a href="#Scylla">
+<text x="0" y="0" class="key tap layer-activator">Scylla</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 56)" class="key keypos-1">
@@ -1033,8 +1033,8 @@ path.combo {
 </g>
 <g transform="translate(28, 118)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#LDT_">
-<text x="0" y="0" class="key tap layer-activator">LDT_</text>
+<a href="#Scylla_">
+<text x="0" y="0" class="key tap layer-activator">Scylla_</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 112)" class="key keypos-13">
