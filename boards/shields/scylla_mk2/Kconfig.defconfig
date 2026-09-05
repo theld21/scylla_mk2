@@ -13,4 +13,8 @@ if SHIELD_SCYLLA_MK2_LEFT || SHIELD_SCYLLA_MK2_RIGHT
     config ZMK_SPLIT
         default y
 
+    # Cot 1 & 2 dung P0.09 / P0.10 - mac dinh la chan anten NFC cua nRF52840
+    config NFCT_PINS_AS_GPIOS
+        default y
+
 endif
