@@ -178,11 +178,11 @@ layers:
   - '0'
   - .
 combos:
-- p: [49, 48]
+- p: [51, 50]
   k: ENTER
-- p: [50, 49]
+- p: [52, 51]
   k: SPACE
-- p: [48, 49, 50]
+- p: [50, 51, 52]
   k: DELETE
 - p: [19, 31]
   k: '['
@@ -240,40 +240,40 @@ combos:
   k: ^
 - p: [29, 28]
   k: '@'
-- p: [55, 22]
+- p: [53, 22]
   k: Ctl+BSPC
   l: [Scylla]
-- p: [55, 31]
+- p: [53, 31]
   k: Ctl+LEFT
   l: [Scylla]
-- p: [55, 32]
+- p: [53, 32]
   k: Ctl+DOWN
   l: [Scylla]
-- p: [55, 33]
+- p: [53, 33]
   k: Ctl+RIGHT
   l: [Scylla]
-- p: [55, 20]
+- p: [53, 20]
   k: Ctl+UP
   l: [Scylla]
-- p: [55, 22]
+- p: [53, 22]
   k: Alt+BSPC
   l: [Scylla_]
-- p: [55, 31]
+- p: [53, 31]
   k: Alt+LEFT
   l: [Scylla_]
-- p: [55, 32]
+- p: [53, 32]
   k: Alt+DOWN
   l: [Scylla_]
-- p: [55, 20]
+- p: [53, 20]
   k: Alt+UP
   l: [Scylla_]
-- p: [56, 31]
+- p: [54, 31]
   k: LEFT
-- p: [56, 33]
+- p: [54, 33]
   k: RIGHT
-- p: [56, 20]
+- p: [54, 20]
   k: UP
-- p: [56, 32]
+- p: [54, 32]
   k: DOWN
 - p: [25, 26]
   k: TAB
@@ -283,7 +283,7 @@ combos:
   k: BACKSPACE
 - p: [33, 34]
   k: ENTER
-- p: [55, 33]
+- p: [53, 33]
   k: Alt+RIGHT
   l: [Scylla_]
 - p: [18, 30]
