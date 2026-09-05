@@ -49,16 +49,16 @@ layers:
   - .
   - /
   - RSHFT
-  - LGUI
   - LALT
+  - LGUI
   - LCTRL
-  - {t: SPACE, h: Number}
   - SPACE
-  - ENTER
-  - {t: TAB, h: Number}
-  - ESC
+  - TAB
+  - BSPC
   - DEL
-  - RALT
+  - {t: SPACE, h: Number}
+  - ENTER
+  - ESC
   LDT_:
   - ESC
   - '1'
@@ -111,13 +111,13 @@ layers:
   - LCTRL
   - LALT
   - LGUI
-  - {t: SPACE, h: Number}
   - SPACE
-  - ENTER
-  - {t: TAB, h: Number}
-  - ESC
+  - TAB
+  - BSPC
   - DEL
-  - RALT
+  - {t: SPACE, h: Number}
+  - ENTER
+  - ESC
   Number:
   - {t: LDT, h: toggle}
   - F1
@@ -170,19 +170,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
   - .
-  - {t: ▽, type: trans}
 combos:
-- p: [51, 50]
+- p: [49, 48]
   k: ENTER
-- p: [52, 51]
+- p: [50, 49]
   k: SPACE
-- p: [50, 51, 52]
+- p: [48, 49, 50]
   k: DELETE
 - p: [19, 31]
   k: '['
@@ -240,40 +240,40 @@ combos:
   k: ^
 - p: [29, 28]
   k: '@'
-- p: [53, 22]
+- p: [55, 22]
   k: Ctl+BSPC
   l: [LDT]
-- p: [53, 31]
+- p: [55, 31]
   k: Ctl+LEFT
   l: [LDT]
-- p: [53, 32]
+- p: [55, 32]
   k: Ctl+DOWN
   l: [LDT]
-- p: [53, 33]
+- p: [55, 33]
   k: Ctl+RIGHT
   l: [LDT]
-- p: [53, 20]
+- p: [55, 20]
   k: Ctl+UP
   l: [LDT]
-- p: [53, 22]
+- p: [55, 22]
   k: Alt+BSPC
   l: [LDT_]
-- p: [53, 31]
+- p: [55, 31]
   k: Alt+LEFT
   l: [LDT_]
-- p: [53, 32]
+- p: [55, 32]
   k: Alt+DOWN
   l: [LDT_]
-- p: [53, 20]
+- p: [55, 20]
   k: Alt+UP
   l: [LDT_]
-- p: [54, 31]
+- p: [56, 31]
   k: LEFT
-- p: [54, 33]
+- p: [56, 33]
   k: RIGHT
-- p: [54, 20]
+- p: [56, 20]
   k: UP
-- p: [54, 32]
+- p: [56, 32]
   k: DOWN
 - p: [25, 26]
   k: TAB
@@ -283,7 +283,7 @@ combos:
   k: BACKSPACE
 - p: [33, 34]
   k: ENTER
-- p: [53, 33]
+- p: [55, 33]
   k: Alt+RIGHT
   l: [LDT_]
 - p: [18, 30]
